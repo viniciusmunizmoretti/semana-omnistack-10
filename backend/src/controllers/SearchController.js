@@ -22,7 +22,7 @@ module.exports = {
                 },
             }
         })
-        // buscar todos os devs num raio 10 km
+        // buscar todos os devs num raio de 10 km
         // filtrar por tech
         return response.json({devs});
     }
